@@ -1,0 +1,16 @@
+SELECT * FROM tbProdutos WHERE PRECO_LISTA BETWEEN 16.007 AND 16.009;
+
+SELECT * FROM tbProdutos WHERE PRECO_LISTA >= 16.007 AND PRECO_LISTA <= 16.009;
+
+SELECT * FROM tbCliente WHERE IDADE BETWEEN 18 AND 22;
+
+SELECT * FROM tbCliente WHERE IDADE >= 18 AND IDADE <= 22;
+
+SELECT * FROM tbCliente WHERE IDADE >= 18 AND IDADE <= 22 AND SEXO = 'M';
+
+SELECT * FROM tbCliente WHERE CIDADE = 'Rio de Janeiro' OR BAIRRO = 'Jardins';
+
+SELECT * FROM tbCliente WHERE (IDADE >= 18 AND IDADE <= 22) OR (CIDADE = 'Rio de Janeiro' OR BAIRRO = 'Jardins');
+
+/* Atividade seleção composta */
+SELECT * FROM tabela_de_vendedores WHERE DE_FERIAS = 1 AND YEAR(DATA_DA_ADMISSAO) < 2016;

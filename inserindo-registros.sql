@@ -14,5 +14,4 @@ INSERT INTO tbProdutos(PRODUTO, NOME, EMBALAGEM, TAMANHO, SABOR, PRECO_LISTA)
 VALUES('544931', 'Frescor do Verão - 350ml - Limão', 'PET', '350ml', 'Limão', 3.20);
 
 INSERT INTO tbProdutos(PRODUTO, NOME, EMBALAGEM, TAMANHO, SABOR, PRECO_LISTA)
-VALUES('1078680', 'Frescor do Verão - 470ml - Manga', 'Lata', '470ml', 'Manga', 5.18
-);
+VALUES('1078680', 'Frescor do Verão - 470ml - Manga', 'Lata', '470ml', 'Manga', 5.18);
