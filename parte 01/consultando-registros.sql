@@ -17,3 +17,4 @@ SELECT NOME, CPF, SEXO, IDADE, DATA_NASCIMENTO FROM tbCliente;
 
 /* Atividade selecionando nome e matrícula dos vendedores */
 SELECT NOME, MATRICULA FROM tabela_de_vendedores;
+
