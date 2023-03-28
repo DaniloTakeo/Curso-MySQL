@@ -14,7 +14,7 @@ BEGIN
     
     SELECT sabor INTO vSabor FROM produtos WHERE codigo_do_produto = vProduto;
 
-    CASE
+    CASE vSabor
         WHEN 'Lima/Limão' THEN SELECT 'Cítrico';
         WHEN 'Laranja' THEN SELECT 'Cítrico';
         WHEN 'Morango/Limão' THEN SELECT 'Cítrico';
