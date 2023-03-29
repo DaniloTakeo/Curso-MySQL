@@ -1,0 +1,3 @@
+DROP DATABASE library3;
+
+DROP SCHEMA library2;

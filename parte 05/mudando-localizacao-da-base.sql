@@ -1,0 +1,3 @@
+SHOW VARIABLES WHERE Variable_name LIKE '%dir';
+
+CREATE DATABASE library3;

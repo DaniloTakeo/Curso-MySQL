@@ -1,0 +1,3 @@
+CREATE DATABASE library;
+
+CREATE SCHEMA library2;

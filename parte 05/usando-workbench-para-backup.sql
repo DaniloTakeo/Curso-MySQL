@@ -1,0 +1,5 @@
+USE sucos_vendas;
+
+LOCK INSTANCE FOR BACKUP;
+
+UNLOCK INSTANCE;
