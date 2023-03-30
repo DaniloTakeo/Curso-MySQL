@@ -1,0 +1,7 @@
+{
+    "nome": "João",
+    "Idade": 35,
+    "Salario": 10650.34,
+    "Telefone": ["2222-3223", "2534-4334"],
+    "Países": ["Argentina", "Estados Unidos", "Austrália"]
+}
